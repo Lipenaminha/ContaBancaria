@@ -1,0 +1,121 @@
+using System;
+using System.Globalization;
+using System.Linq;
+
+
+
+
+
+
+
+/*
+
+//lista de string com 5 produtos adicionados 
+var produtos = new List<string> { "Camisa", "Calça", "Tênis", "Boné", "Meias", "Jaqueta", "Cinto", "Óculos de Sol", "Relógio", "Mochila" };
+produtos.Add("Carteira");
+produtos.Add("Chapéu");
+produtos.Add("Luvas");
+produtos.Add("Cachecol");
+produtos.Add("Blusa");
+
+Console.WriteLine("Produtos na lista:");
+foreach (var produto in produtos)
+{
+    Console.WriteLine(produto);
+}
+
+// removendo um produto
+
+produtos.Remove("Cinto");
+Console.WriteLine("\nApós remover o Cinto:");
+foreach (var produto in produtos)
+{
+    Console.WriteLine(produto);
+}
+
+// contar quantos tem mais de 5 letras
+var countMaisDe5Letras = produtos.Count(p => p.Length > 5);
+Console.WriteLine($"\nQuantidade de produtos com mais de 5 letras: {countMaisDe5Letras}");
+
+
+// mostrar todos em ordem alfabetica 
+
+var ordenados = produtos.OrderBy(p => p).ToList();
+Console.WriteLine("\nProdutos em ordem alfabética: " + string.Join(", ", ordenados));
+
+*/
+
+//---------------------------------------------------//
+
+
+/*Listas e LINQ em C#
+int numeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
+    .Where(n => n % 2 == 0)
+    .Count();
+
+Console.WriteLine($"Quantidade de números pares: {numeros}");
+
+// calcula a soma de todos os números 
+int soma = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
+    .Sum();
+
+Console.WriteLine($"A soma de todos os números é: {soma}");
+
+// mostra o maior número
+int maior = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
+    .Max();
+Console.WriteLine($"O maior número é: {maior}");
+
+// mostra o menor número
+int menor = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
+    .Min();
+
+Console.WriteLine($"O menor número é: {menor}");
+
+/*
+
+
+
+//-----------------------------------------------//
+
+
+
+
+/* var nomes = new List<string> { "Ana", "Bruno", "Carlos", "Diana", "Eduardo" };
+nomes.Add("Fernanda");
+nomes.Add("Lucas");
+
+Console.WriteLine("Nomes na lista:");
+foreach (var nome in nomes)
+{
+    Console.WriteLine(nome);
+}
+    
+    
+    //nomes que contem a letra A
+    var encontrados = nomes
+.Where(nome => nome.Contains("A", StringComparison.OrdinalIgnoreCase))
+.ToList();
+
+Console.WriteLine("\nNomes que contêm a letra 'A': " + string.Join(", ", encontrados));
+
+// exemplo de remoção 
+
+nomes.Remove("Fernanda");
+Console.WriteLine("\nApós remover Fernanda:");
+Console.WriteLine(string.Join(", ", nomes));
+
+//buscar nome exato
+var busca = nomes.Find(nome => nome == "Carlos");
+Console.WriteLine($"\nBusca exata por 'Carlos': {busca}");
+
+//Contar quantos nomes começam com 'A'
+var qtd = nomes.Count(nome => nome.StartsWith("A", StringComparison.OrdinalIgnoreCase));
+Console.WriteLine($"\nQuantidade de nomes que começam com 'A': {qtd}");
+
+//transformar select 
+var emMaiusculas = nomes.Select(nome => nome.ToUpper()).ToList();
+Console.WriteLine("\nNomes em maiúsculas:");
+Console.WriteLine(string.Join(", ", emMaiusculas));
+
+*///

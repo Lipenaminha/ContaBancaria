@@ -1,0 +1,138 @@
+using System;
+using System.Globalization;
+using System.Threading.Tasks;
+
+
+/* 
+class Program
+{
+
+
+    static void Main(string[] args)
+    {
+
+
+
+        var a = 10;
+        var b = 20;
+        var c = 30;
+        var d = 40;
+
+        MostrarResultados(a, b, c, d);
+        MostrarResultadosSubtracao(a, b);
+        MostrarResultadosMultiplicacao(a, b);
+        MostrarResultadosDivisao(a, b);
+    }
+
+
+    static int Somar(int x, int y, int z, int w)
+    {
+        return x + y + z + w;
+    }
+
+    static void MostrarResultados(int a, int b, int c, int d)
+    {
+        Console.WriteLine($"A soma de {a}, {b}, {c} e {d} é {Somar(a, b, c, d)}");
+    }
+
+    static int Subtrair(int x, int y)
+    {
+        return x - y;
+    }
+
+    static void MostrarResultadosSubtracao(int a, int b)
+    {
+        Console.WriteLine($"A subtração de {a} e {b} é {Subtrair(a, b)}");
+    }
+
+    static int Multiplicar(int x, int y)
+    {
+        return x * y;
+    }
+
+    static void MostrarResultadosMultiplicacao(int a, int b)
+    {
+        Console.WriteLine($"A multiplicação de {a} e {b} é {Multiplicar(a, b)}");
+    }
+
+    static int Dividir(int x, int y)
+    {
+        return x / y;
+    }
+
+    static void MostrarResultadosDivisao(int a, int b)
+    {
+        Console.WriteLine($"A divisão de {a} e {b} é {Dividir(a, b)}");
+    }
+
+}
+
+/* Métodos com múltiplos parâmetros em C#
+
+
+
+
+
+
+
+
+
+//---------------------------------------------------//
+
+
+/*
+class Program
+{
+    static async Task Main()
+    {
+        Console.WriteLine("Iniciando tarefa...");
+        await Esperar();
+        Console.WriteLine("Tarefa concluída!");
+    }
+
+    static async Task Esperar()
+    {
+        await Task.Delay(2000); // espera 2 segundos sem travar
+    }
+}
+
+*/
+
+
+//---------------------------------------------------//
+
+
+
+
+
+
+/*
+class Program
+{
+
+    static void Main(string[] args)
+    {
+
+        var a = 10;
+        var b = 20;
+
+        MostrarResultados(a, b);
+        MostrarResultados(10, 20);
+    }
+
+    static int Somar(int x, int y)
+    {
+        return x + y;
+    }
+
+    static void MostrarResultados(int a, int b)
+
+    {
+        Console.WriteLine($"A soma de {a} e {b} é {a + b}");
+    }
+
+
+
+}
+
+*/

@@ -1,0 +1,49 @@
+using System;
+using System.Globalization;
+
+
+Console.WriteLine("======CALCULADORA SIMPLES ======");
+
+Console.Write("Digite o primeiro número:");
+double num1 = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+Console.Write("Digite o segundo número:");
+double num2 = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+Console.Write("Escolha a operação (+, -, *, /):");
+string operacao = Console.ReadLine()!;
+
+double resultado = 0;
+
+if (operacao == "+")
+{
+    resultado = num1 + num2;
+}
+else if (operacao == "-")
+{
+    resultado = num1 - num2;
+}
+else if (operacao == "*")
+{
+    resultado = num1 * num2;
+}
+else if (operacao == "/")
+{
+    if (num2 != 0)
+    {
+        resultado = num1 / num2;
+    }
+    else
+    {
+        Console.WriteLine("Erro: Divisão por zero não é permitida.");
+        return;
+    }
+}
+else
+{
+    Console.WriteLine("Operação inválida.");
+    return;
+}
+
+
+Console.WriteLine($"Resultado: {resultado}");

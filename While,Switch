@@ -1,0 +1,31 @@
+using System;
+using System.Globalization;
+
+
+while (true)
+{
+    
+   Console.WriteLine("\n=== Calculadora Simples ===");
+
+    Console.Write("Número 1: ");
+    double a = double.Parse(Console.ReadLine());
+
+    Console.Write("Número 2: ");
+    double b = double.Parse(Console.ReadLine());
+
+    Console.Write("Operação (+ - * / ou 'sair'): ");
+    string op = Console.ReadLine();
+
+    if (op == "sair")
+        break;
+
+    double resultado = op switch {
+        "+" => a + b,
+        "-" => a - b,
+        "*" => a * b,
+        "/" => b != 0 ? a / b : double.NaN,
+        _ => double.NaN
+    };
+
+    Console.WriteLine($"Resultado: {resultado}");
+}

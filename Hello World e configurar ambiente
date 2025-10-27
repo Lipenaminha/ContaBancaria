@@ -1,0 +1,27 @@
+using System;
+using System.Globalization;
+
+
+Console.WriteLine("Primeira chamada no hello world em C#! na prática com .NET");
+Console.Write("Digite seu nome: ");
+var nome = Console.ReadLine();
+Console.Write("Digite sua idade: ");
+if (int.TryParse(Console.ReadLine(), out int idade))
+{
+    Console.WriteLine($"Idade registrada {idade}");
+}
+else
+{
+    Console.WriteLine("Idade inválida, definindo como 0.");
+    
+}
+
+// usa o formato americano (ponto como separador)
+Console.Write("Digite sua altura (em metros, ex: 1.75): ");
+double altura = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+Console.WriteLine($"Resumo:");
+Console.WriteLine($"Olá, {nome}! Seja bem-vindo ao mundo do .NET!");
+Console.WriteLine($"Você tem {idade} anos.");
+//devemos usar culture na saida tb
+Console.WriteLine($"Olá você tem altura {altura.ToString(CultureInfo.InvariantCulture)} metros.");

@@ -1,0 +1,14 @@
+C:\ProgramaçãoNaPratica\bin\Debug\net9.0\ProgramaçãoNaPratica.exe
+C:\ProgramaçãoNaPratica\bin\Debug\net9.0\ProgramaçãoNaPratica.deps.json
+C:\ProgramaçãoNaPratica\bin\Debug\net9.0\ProgramaçãoNaPratica.runtimeconfig.json
+C:\ProgramaçãoNaPratica\bin\Debug\net9.0\ProgramaçãoNaPratica.dll
+C:\ProgramaçãoNaPratica\bin\Debug\net9.0\ProgramaçãoNaPratica.pdb
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.AssemblyInfoInputs.cache
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.AssemblyInfo.cs
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.csproj.CoreCompileInputs.cache
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.dll
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\refint\ProgramaçãoNaPratica.dll
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.pdb
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.genruntimeconfig.cache
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ref\ProgramaçãoNaPratica.dll
