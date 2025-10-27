@@ -7,13 +7,16 @@ namespace ContaSantander
     public class ContaBancaria
     {
 
-        public string Titular { get; private set; }
+        public Cliente Titular { get; private set; }
+
+        public Agencia Agencia { get; private set; }
         public int Numero { get; private set; }
         public decimal Saldo { get; private set; }
 
-        public ContaBancaria(string titular, int numero, decimal saldoInicial = 0)
+        public ContaBancaria(Cliente titular, Agencia agencia, int numero, decimal saldoInicial = 0)
         {
             Titular = titular;
+            Agencia = agencia;
             Numero = numero;
             Saldo = saldoInicial;
         }
@@ -39,11 +42,13 @@ namespace ContaSantander
 
 
         }
-        
-        
 
+        public override string ToString()
+        {
+            return $"Conta {Numero} - Titular: {Titular.Nome} - Agência: {Agencia.Numero} - Saldo: {Saldo}";
+        }
     }
-
+    
 
 
 

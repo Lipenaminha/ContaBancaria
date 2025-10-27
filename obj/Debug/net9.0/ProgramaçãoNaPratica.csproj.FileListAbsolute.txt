@@ -12,3 +12,4 @@ C:\ProgramaçãoNaPratica\obj\Debug\net9.0\refint\ProgramaçãoNaPratica.dll
 C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.pdb
 C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.genruntimeconfig.cache
 C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ref\ProgramaçãoNaPratica.dll
+C:\ProgramaçãoNaPratica\obj\Debug\net9.0\ProgramaçãoNaPratica.sourcelink.json

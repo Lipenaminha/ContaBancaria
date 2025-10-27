@@ -4,8 +4,15 @@ using System.Threading.Tasks;
 using ContaSantander;
 
 
-var conta = new ContaBancaria("Joseph", 1234, 100);
-conta.Depositar(50);
-var ok = conta.Sacar(30);
-Console.WriteLine($"Saldo atual: {conta.Saldo} - Saque OK {ok}");
+var cliente = new Cliente("Ana Silva", "123.456.789-00");
+var agencia = new Agencia(1234, "Agência Central");
+
+
+var conta = new ContaBancaria(cliente, agencia, 123456, 0);
+conta.Depositar(1000);
+conta.Sacar(250);
+
+Console.WriteLine(conta);
+
+
 
