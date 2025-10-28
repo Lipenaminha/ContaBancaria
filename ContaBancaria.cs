@@ -4,7 +4,8 @@ namespace ContaSantander
 {
 
 
-    public class ContaBancaria
+// agora implementamos a interface e é considerada um "modelo genérico" de conta.
+    public class ContaBancaria : IConta
     {
 
         public Cliente Titular { get; private set; }
@@ -31,7 +32,8 @@ namespace ContaSantander
             Saldo += valor;
         }
 
-        public bool Sacar(decimal valor)
+// utilizamos o virtual para sobrescrever o método na classe derivada
+        public virtual bool Sacar(decimal valor)
         {
 
             if (valor <= 0) return false;
